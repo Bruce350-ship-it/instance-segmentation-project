@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# YOLOv8 run artefacts (large, auto-generated)
+runs/
+
+# Model weights (large binary files — download on demand)
+*.pt
+*.onnx
+*.engine
+
+# Generated outputs (also large)
+predictions_coco.json
+
+# Dataset (large — distribute separately or via DVC/git-lfs)
+coco128/
+
+# IDE / OS
+.idea/
+*.DS_Store
+Thumbs.db
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
+node_modules

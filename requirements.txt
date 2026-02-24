@@ -1,0 +1,12 @@
+# ---------------------------------------------------------------
+# Instance Segmentation Pre-Annotation Pipeline
+# ---------------------------------------------------------------
+# Install all dependencies with:
+#   pip install -r requirements.txt
+# ---------------------------------------------------------------
+
+# Core inference engine — includes PyTorch as a transitive dep
+ultralytics>=8.0.0
+
+# Image I/O for reading dimensions from dataset images
+Pillow>=10.0.0
